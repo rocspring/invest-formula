@@ -2,7 +2,7 @@
 * @Author: shaopengwang
 * @Date:   2015-12-18 11:02:13
 * @Last Modified by:   shaopengwang
-* @Last Modified time: 2015-12-18 17:49:33
+* @Last Modified time: 2015-12-18 17:51:16
 */
 
 (function () {
@@ -21,12 +21,12 @@
      */
     function computeIntrinsicValue( initCashFlow, riseTime, shortTermIncreaseRate, longTermIncreaseRate, discountRate,  securityMarginRate) {
 
-        initCashFlow = initCashFlow || 1; // 
-        riseTime = riseTime || 10; // 
-        shortTermIncreaseRate = shortTermIncreaseRate || 0.05; // 
-        longTermIncreaseRate = longTermIncreaseRate || 0.03; // 
-        discountRate = discountRate || 0.11; // discount rate, default 11%
-        securityMarginRate = securityMarginRate || 0.74; // 
+        initCashFlow = initCashFlow || 1;
+        riseTime = riseTime || 10;
+        shortTermIncreaseRate = shortTermIncreaseRate || 0.05;
+        longTermIncreaseRate = longTermIncreaseRate || 0.03;
+        discountRate = discountRate || 0.11;
+        securityMarginRate = securityMarginRate || 0.74;
 
         var shortTermCashFlow = 0,
             longTermCashFlow = 0,
