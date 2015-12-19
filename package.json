@@ -1,0 +1,22 @@
+{
+  "name": "invest-formula",
+  "version": "1.0.0",
+  "description": "invest formula (private)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wshp/invest-formula.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wshp/invest-formula/issues"
+  },
+  "homepage": "https://github.com/wshp/invest-formula#readme",
+  "dependencies": {
+    "requirejs": "^2.1.20"
+  }
+}
