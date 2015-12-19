@@ -2,7 +2,7 @@
 * @Author: shaopengwang
 * @Date:   2015-12-18 11:02:13
 * @Last Modified by:   shaopengwang
-* @Last Modified time: 2015-12-18 17:51:16
+* @Last Modified time: 2015-12-19 15:00:41
 */
 
 (function () {
@@ -40,6 +40,10 @@
 
         longTermCashFlow = riseTimeCashFlow / ( discountRate - longTermIncreaseRate );
 
+        console.log('shortTermCashFlow:' + shortTermCashFlow);
+        console.log('riseTimeCashFlow:' + riseTimeCashFlow);
+        console.log('longTermCashFlow:' + longTermCashFlow);
+        
         return (shortTermCashFlow + longTermCashFlow) * securityMarginRate;
     }
 
